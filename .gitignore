@@ -1,0 +1,57 @@
+# User specific & automatically generated files #
+#################################################
+/.phpintel
+
+/node_modules/*
+.sass-cache
+*.css.map
+public/css/**
+gin-bin
+gophass_server
+.env
+
+# IDE and editor specific files #
+#################################
+/nbproject
+.idea
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+
+# GO15VENDOREXPERIMENT flag specifics
+vendor/**
+!vendor/manifest
+
